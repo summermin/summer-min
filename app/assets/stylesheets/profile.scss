@@ -1,1 +1,25 @@
+html, body {
+  height: 100%;
+}
 
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.web {
+  float: left;
+}
+
+.blog {
+  float: right;
+}
