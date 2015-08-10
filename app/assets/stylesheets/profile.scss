@@ -29,6 +29,18 @@ h1 {
   float: right;
 }
 
+.links a {
+  color: #000;
+}
+
+.links a:hover{
+  color: #888;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 .clear-fix {
   clear: both;
 }
@@ -40,7 +52,7 @@ h1 {
   color: #000;
 }
 
-.social-icons a:visited{
+.social-icons a {
   color: #000;
 }
 
