@@ -1,0 +1,93 @@
+/* line 1, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+html {
+  display: table;
+  margin: auto;
+}
+
+/* line 10, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+body {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Sorts Mill Goudy', serif;
+  background-color: #f6f6f6;
+}
+
+/* line 17, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+h1 {
+  font-size: 85px;
+  /*  letter-spacing: .1em;*/
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+/* line 24, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.web {
+  float: left;
+}
+
+/* line 28, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.blog {
+  float: right;
+}
+
+/* line 32, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.links a {
+  color: #000;
+}
+
+/* line 36, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.links a:hover {
+  color: #888;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 44, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.clear-fix {
+  clear: both;
+}
+
+/* line 48, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.social-icons {
+  margin: 15px 0px;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+
+/* line 55, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.social-icons a {
+  color: #000;
+}
+
+/* line 59, /Users/summermin/projects/summer-min/app/assets/stylesheets/profile.scss */
+.social-icons a:hover {
+  color: #888;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
